@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+            align-items: center;
+            
+          
+            
+        }
+        h1 {
+            color: #333;
+            text-decoration: underline;
+        }
+        #keyword-details ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            color:black;
+            border: solid 1px;
+            border-radius:10px;
+            background-color: white;
+        }
+        #keyword-details li {
+            margin-bottom: 10px;
+            font-size: 17px;
+            width: 600px;
+           
+        }
+        #keyword-details li:hover {
+            color: #000;
+        }
+        .img-sec{
+            position: absolute;
+            z-index: -100;
+           
+        }
+        #keyword-title{
+            background-color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="keyword-title"></h1>
+    <div id="keyword-details">
+    </div>
+    <div class="img-sec">
+        <img style=" border-radius: 50px;" src="food-additive.webp" alt="">
+    </div>
+    <script src="details.js"></script>
+</body>
+</html>
